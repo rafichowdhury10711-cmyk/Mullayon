@@ -1,12 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mullayon</title>
-  </head>
-  <body>
+    <!-- React এবং ReactDOM লাইব্রেরি (CDN) -->
+    <script src="https://unpkg.com" crossorigin></script>
+    <script src="https://unpkg.com" crossorigin></script>
+    <!-- কাঁচা JSX-কে ব্রাউজারের ভাষায় রূপান্তর করার জন্য Babel -->
+    <script src="https://unpkg.com"></script>
+    <!-- Tailwind CSS (যদি আপনি ডিজাইন ব্যবহার করে থাকেন) -->
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
     <div id="root"></div>
-    <script type="module" src="/mullayon.jsx"></script>
-  </body>
+
+    <!-- এখানে script type অবশ্যই "text/babel" হতে হবে এবং src আপনার ফাইলের নাম হবে -->
+    <script type="text/babel" src="./mullayon.jsx"></script>
+</body>
 </html>
